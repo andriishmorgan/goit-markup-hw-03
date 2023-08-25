@@ -1,0 +1,180 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+ul {
+  list-style: none;
+}
+
+/*Studio, Portfolio, Contacts, E-mail, Phone*/
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #4d5ae5;
+  text-transform: uppercase;
+}
+
+.logo > .logo-span {
+  color: #2e2f42;
+}
+
+.header-navigation {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.header-navigation:hover,
+.header-navigation:focus {
+  color: #404bbf;
+}
+
+.adress-style {
+  font-style: normal;
+}
+
+.header-navigation-address {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  font-style: normal;
+}
+
+.header-navigation-address:focus,
+.header-navigation-address:hover {
+  color: #404bbf;
+}
+
+/* Section one */
+
+.hero-image {
+  background-color: #2e2f42;
+}
+.big-text {
+  color: #ffffff;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.button {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+.button:focus,
+.button:hover {
+  background-color: #404bbf;
+}
+
+/*Section two*/
+
+.section-two {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.section-two-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/*Section three*/
+
+.section-three-fon {
+  background-color: #f4f4fd;
+}
+
+.section-three-maintext {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  background-color: #f4f4fd;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.section-three {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  background-color: #ffffff;
+}
+.section-three-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+/*Section four*/
+
+.section-four {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  background-color: #ffffff;
+  text-align: center;
+  text-transform: capitalize;
+}
+.section-four-maintext {
+  color: #2e2f42;
+  background-color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.section-four-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/*Footer*/
+
+.footer-text {
+  color: #f4f4fd;
+  background-color: #2e2f42;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer > .logo > .logo-span {
+  color: #f4f4fd;
+}
