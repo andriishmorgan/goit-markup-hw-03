@@ -244,12 +244,6 @@ header {
   margin-bottom: 72px;
 }
 
-.team-list {
-  display: flex;
-  flex-direction: column;
-  border-radius: 0px 0px 4px 4px;
-}
-
 .members {
   padding: 32px 0;
   text-align: center;
@@ -263,6 +257,9 @@ header {
   color: #2e2f42;
   background-color: #ffffff;
   margin-bottom: 8px;
+  border-radius: 0px 0px 4px 4px;
+  display: flex;
+  flex-direction: column;
 }
 .section-three-text {
   font-size: 16px;
@@ -284,10 +281,16 @@ header {
   background-color: #ffffff;
   text-align: center;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .portfolio-list {
   width: calc((100% - 48px) / 3);
+}
+
+.our-portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .section-four-maintext {
@@ -313,6 +316,16 @@ header {
   padding: 32px 16px;
 }
 
+.portfolio-item {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.portfolio-list {
+  width: calc((100% - 48px) / 3);
+}
 /*Footer*/
 
 .footer-text {
